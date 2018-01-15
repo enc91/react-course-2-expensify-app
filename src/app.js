@@ -10,7 +10,7 @@ import './styles/styles.scss';
 import 'normalize.css/normalize.css';
 
 const store = configureStore();
-
+console.log('test');
 const jsx = (
     <Provider store={store}>
         <AppRouter />
